@@ -2,8 +2,6 @@
 setwd("D:/#Coursera Material/R_workingDir/M3/dataFile")
 
 library(data.table)
-##library(dplyr)
-library(sqldf)
 
 train_sub <- read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/subject_train.txt", col.names = "Subject")
 train_y<-read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/y_train.txt",col.names = "Activity")
@@ -20,7 +18,8 @@ all_bind <- rbind(train_bind, test_bind)
 
 ## Extracts only the measurements on the mean and standard deviation for each measurement.
 featuresName <-read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/features.txt",strip.white=TRUE, stringsAsFactors=FALSE)
-validField <- sqldf("select * from featuresName where V2 LIKE '%std()%' or V2 LIKE '%mean()%'")
+##validField <- sqldf("select * from featuresName where V2 LIKE '%std()%' or V2 LIKE '%mean()%'")
+validField <- featuresName[grep("std\\(\\)|mean\\(\\)", featuresName$V2),]
 meanStdDf <- all_bind[, c(1 , 2 , validField$V1+2)]
 
 ##Uses descriptive activity names to name the activities in the data set
@@ -34,6 +33,6 @@ names(meanStdDf) <-colNames
 ##Creates a second, independent tidy data set with the average of each variable for each activity and each subject
 aggrResut <- aggregate(meanStdDf[, 3: ncol(meanStdDf)], by=list(subject = meanStdDf$Subject, activity=meanStdDf$Activity), mean)
 
-#Write tidy data set into a .txt file
+##Write tidy data set into a .txt file
 write.table(format(aggrResut, scientific=T) , file="m3result.txt", row.names = FALSE)
-#Get the output file m3result.txt from working directory.(Use getwd() to check)
+##Get the output file m3result.txt from working directory.(Use getwd() to check)
