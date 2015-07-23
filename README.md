@@ -9,7 +9,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ## Setup steps
 - Download https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and extra the .zip file in a working directory
-- Should have library "data.table" and "sqldf" in R. (Use command install.packages("data.table"), install.packages("sqldf") if not)
+- Should have library "data.table" in R. (Use command install.packages("data.table") if library does not exist)
 - Open file run_analysis.R in R and edit second line to set working directory path
 
 ## run_analysis.R does the following : 
