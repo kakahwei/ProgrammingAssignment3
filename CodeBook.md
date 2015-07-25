@@ -2,13 +2,13 @@ Codebook for wearable computing dataset
 =======================================
 Variables
 ----------
-### subject 
+1) subject 
 - Description 	: The subject who performed the activity for each window sample.
 - Data_Type 	: Integer
 - Range			: 1 to 30
 
 
-### Activity
+2) Activity
 - Description 	: The activity done by each window sample. The activity description stated in  activity_labels.txt
 - Data_Type 	: Integer
 - Range			: 1 to 6
@@ -19,138 +19,139 @@ Variables
 					5 STANDING
 					6 LAYING
 					     
-### tBodyAcc-mean()-X           
+3) tBodyAcc-mean()-X           
 - Description 	: Describe in section "Data"
-### tBodyAcc-mean()-Y          
+4) tBodyAcc-mean()-Y          
 - Description 	: Describe in section "Data"
-### tBodyAcc-mean()-Z           
+5) tBodyAcc-mean()-Z           
 - Description 	: Describe in section "Data"
-### tBodyAcc-std()-X           
+6) tBodyAcc-std()-X           
 - Description 	: Describe in section "Data"
-### tBodyAcc-std()-Y            
+7) tBodyAcc-std()-Y            
 - Description 	: Describe in section "Data"
-### tBodyAcc-std()-Z           
+8) tBodyAcc-std()-Z           
 - Description 	: Describe in section "Data"
-### tGravityAcc-mean()-X        
+9) tGravityAcc-mean()-X        
 - Description 	: Describe in section "Data"
-### tGravityAcc-mean()-Y       
+10) tGravityAcc-mean()-Y       
 - Description 	: Describe in section "Data"
-### tGravityAcc-mean()-Z        
+11) tGravityAcc-mean()-Z        
 - Description 	: Describe in section "Data"
-### tGravityAcc-std()-X        
+12) tGravityAcc-std()-X        
 - Description 	: Describe in section "Data"
-### tGravityAcc-std()-Y         
+13) tGravityAcc-std()-Y         
 - Description 	: Describe in section "Data"
-### tGravityAcc-std()-Z        
+14) tGravityAcc-std()-Z        
 - Description 	: Describe in section "Data"
-### tBodyAccJerk-mean()-X       
+15) tBodyAccJerk-mean()-X       
 - Description 	: Describe in section "Data"
-### tBodyAccJerk-mean()-Y      
+16) tBodyAccJerk-mean()-Y      
 - Description 	: Describe in section "Data"
-### tBodyAccJerk-mean()-Z       
+17) tBodyAccJerk-mean()-Z       
 - Description 	: Describe in section "Data"
-### tBodyAccJerk-std()-X       
+18) tBodyAccJerk-std()-X       
 - Description 	: Describe in section "Data"
-### tBodyAccJerk-std()-Y        
+19) tBodyAccJerk-std()-Y        
 - Description 	: Describe in section "Data"
-### tBodyAccJerk-std()-Z       
+20) tBodyAccJerk-std()-Z       
 - Description 	: Describe in section "Data"
-### tBodyGyro-mean()-X          
+21) tBodyGyro-mean()-X          
 - Description 	: Describe in section "Data"
-### tBodyGyro-mean()-Y         
+22) tBodyGyro-mean()-Y         
 - Description 	: Describe in section "Data"
-### tBodyGyro-mean()-Z          
+23) tBodyGyro-mean()-Z          
 - Description 	: Describe in section "Data"
-### tBodyGyro-std()-X          
+24) tBodyGyro-std()-X          
 - Description 	: Describe in section "Data"
-### tBodyGyro-std()-Y           
+25) tBodyGyro-std()-Y           
 - Description 	: Describe in section "Data"
-### tBodyGyro-std()-Z          
+26) tBodyGyro-std()-Z          
 - Description 	: Describe in section "Data"
-### tBodyGyroJerk-mean()-X      
+27) tBodyGyroJerk-mean()-X      
 - Description 	: Describe in section "Data"
-### tBodyGyroJerk-mean()-Y     
+28) tBodyGyroJerk-mean()-Y     
 - Description 	: Describe in section "Data"
-### tBodyGyroJerk-mean()-Z      
+29) tBodyGyroJerk-mean()-Z      
 - Description 	: Describe in section "Data"
-### tBodyGyroJerk-std()-X      
+30) tBodyGyroJerk-std()-X      
 - Description 	: Describe in section "Data"
-### tBodyGyroJerk-std()-Y       
+31) tBodyGyroJerk-std()-Y       
 - Description 	: Describe in section "Data"
-### tBodyGyroJerk-std()-Z      
+32) tBodyGyroJerk-std()-Z      
 - Description 	: Describe in section "Data"
-### tBodyAccMag-mean()          
+33) tBodyAccMag-mean()          
 - Description 	: Describe in section "Data"
-### tBodyAccMag-std()          
+34) tBodyAccMag-std()          
 - Description 	: Describe in section "Data"
-### tGravityAccMag-mean()       
+35) tGravityAccMag-mean()       
 - Description 	: Describe in section "Data"
-### tGravityAccMag-std()       
+36) tGravityAccMag-std()       
 - Description 	: Describe in section "Data"
-### tBodyAccJerkMag-mean()      
+37) tBodyAccJerkMag-mean()      
 - Description 	: Describe in section "Data"
-### tBodyAccJerkMag-std()    
+38) tBodyAccJerkMag-std()    
 - Description 	: Describe in section "Data"  
-### tBodyGyroMag-mean()         
+39) tBodyGyroMag-mean()         
 - Description 	: Describe in section "Data"
-### tBodyGyroMag-std()         
+40) tBodyGyroMag-std()         
 - Description 	: Describe in section "Data"
-### tBodyGyroJerkMag-mean()     
+41) tBodyGyroJerkMag-mean()     
 - Description 	: Describe in section "Data"
-### tBodyGyroJerkMag-std()     
+42) tBodyGyroJerkMag-std()     
 - Description 	: Describe in section "Data"
-### fBodyAcc-mean()-X           
+43) fBodyAcc-mean()-X           
 - Description 	: Describe in section "Data"
-### fBodyAcc-mean()-Y          
+44) fBodyAcc-mean()-Y          
 - Description 	: Describe in section "Data"
-### fBodyAcc-mean()-Z           
+45) fBodyAcc-mean()-Z           
 - Description 	: Describe in section "Data"
-### fBodyAcc-std()-X           
+46) fBodyAcc-std()-X           
 - Description 	: Describe in section "Data"
-### fBodyAcc-std()-Y  
+47) fBodyAcc-std()-Y  
 - Description 	: Describe in section "Data"          
-### fBodyAcc-std()-Z           
+48) fBodyAcc-std()-Z           
 - Description 	: Describe in section "Data"
-### fBodyAccJerk-mean()-X       
+49) fBodyAccJerk-mean()-X       
 - Description 	: Describe in section "Data"
-### fBodyAccJerk-mean()-Y      
+50) fBodyAccJerk-mean()-Y      
 - Description 	: Describe in section "Data"
-### fBodyAccJerk-mean()-Z       
+51) fBodyAccJerk-mean()-Z       
 - Description 	: Describe in section "Data"
-### fBodyAccJerk-std()-X       
+52) fBodyAccJerk-std()-X       
 - Description 	: Describe in section "Data"
-### fBodyAccJerk-std()-Y        
+53) fBodyAccJerk-std()-Y        
 - Description 	: Describe in section "Data"
-### fBodyAccJerk-std()-Z       
+54) fBodyAccJerk-std()-Z       
 - Description 	: Describe in section "Data"
-### fBodyGyro-mean()-X          
+55) fBodyGyro-mean()-X          
 - Description 	: Describe in section "Data"
-### fBodyGyro-mean()-Y         
+56) fBodyGyro-mean()-Y         
 - Description 	: Describe in section "Data"
-### fBodyGyro-mean()-Z          
+57) fBodyGyro-mean()-Z          
 - Description 	: Describe in section "Data"
-### fBodyGyro-std()-X          
+58) fBodyGyro-std()-X          
 - Description 	: Describe in section "Data"
-### fBodyGyro-std()-Y           
+59) fBodyGyro-std()-Y           
 - Description 	: Describe in section "Data"
-### fBodyGyro-std()-Z          
+60) fBodyGyro-std()-Z          
 - Description 	: Describe in section "Data"
-### fBodyAccMag-mean()          
+61) fBodyAccMag-mean()          
 - Description 	: Describe in section "Data"
-### fBodyAccMag-std()          
+62) fBodyAccMag-std()          
 - Description 	: Describe in section "Data"
-### fBodyBodyAccJerkMag-mean()  
+63) fBodyBodyAccJerkMag-mean()  
 - Description 	: Describe in section "Data"
-### fBodyBodyAccJerkMag-std()  
+64) fBodyBodyAccJerkMag-std()  
 - Description 	: Describe in "Data" section
-### fBodyBodyGyroMag-mean()     
+65) fBodyBodyGyroMag-mean()     
 - Description 	: Describe in "Data" section
-### fBodyBodyGyroMag-std()     
+66) fBodyBodyGyroMag-std()     
 - Description 	: Describe in "Data" section
-### fBodyBodyGyroJerkMag-mean() 
+67) fBodyBodyGyroJerkMag-mean() 
 - Description 	: Describe in "Data" section
-### fBodyBodyGyroJerkMag-std() 
+68) fBodyBodyGyroJerkMag-std() 
 - Description 	: Describe in "Data" section
+
 					
 
 Data
