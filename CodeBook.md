@@ -142,15 +142,15 @@ Variables
 ### fBodyBodyAccJerkMag-mean()  
 - Description 	: Describe in section "Data"
 ### fBodyBodyAccJerkMag-std()  
-- Description 	: Describe in section "Data"
+- Description 	: Describe in "Data" section
 ### fBodyBodyGyroMag-mean()     
-- Description 	: Describe in section "Data"
+- Description 	: Describe in "Data" section
 ### fBodyBodyGyroMag-std()     
-- Description 	: Describe in section "Data"
+- Description 	: Describe in "Data" section
 ### fBodyBodyGyroJerkMag-mean() 
-- Description 	: Describe in section "Data"
+- Description 	: Describe in "Data" section
 ### fBodyBodyGyroJerkMag-std() 
-- Description 	: Describe in section "Data"
+- Description 	: Describe in "Data" section
 					
 
 Data
