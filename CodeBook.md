@@ -20,7 +20,7 @@ Variables
 					6 LAYING
 					     
 ### tBodyAcc-mean()-X           
-- Description 	: Describe in section "Data"
+- Description 	: Describe in "Data" section
 ### tBodyAcc-mean()-Y          
 - Description 	: Describe in section "Data"
 ### tBodyAcc-mean()-Z           
